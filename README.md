@@ -9,7 +9,10 @@ Our project is a game in which an RC car navigates an obstacle course. The car w
 Our design is a game system intended to function as entertainment. The standout feature of our project is the wireless communication between the two MCUs, one in the controller and one in the car. Additionally, we will tune the accelerometer sensing in order to differentiate between breaking and colliding with walls or other obstacles . This way, we get videogame-like mechanics in a real setup with a robot in a physical environment. 
 
 ## 3) System Block Diagram:
-
+remote diagram: 
+![alt text](remote.png)
+car diagram: 
+![alt text](car.png)
 ## 4) Design Sketches:
 ![alt text](inside.jpeg)
 ![alt text](side.jpeg)
@@ -70,7 +73,6 @@ Car:
 - DC gear motors (x4)
 - H-bridge motor driver (x4, or dual H-bridge x2)
 - MPU-6050 accelerometer
-- SPST toggle switch (practice mode)
 - LEDs (x2)
 - AA battery pack + holder
 
