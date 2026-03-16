@@ -84,6 +84,8 @@ On demo day, the project will be demonstrated using two small RC cars operating 
 
 ## 9) Sprint Planning:
 
+[spread sheet link](https://docs.google.com/spreadsheets/d/1aMgzzJ2PiYqlZypGd8MVPJMgWRnupPE3UgLq3mdljGI/edit?gid=0#gid=0)
+
 In the first sprint, the team will focus on establishing the basic hardware platform, including setting up the microcontroller boards, power systems, and motor drivers, and writing initial firmware to verify that both vehicles can drive using PWM motor control. The second sprint will focus on implementing the proximity sensing subsystem and verifying that the microcontroller can accurately detect objects within the required tag range. During the third sprint, the team will implement the core game logic, including tag detection, timing conditions, and the disabled state for the tagged vehicle, along with visual or audible feedback. The fourth sprint will focus on integrating all subsystems together, including user input, sensing, motor control, and game logic, followed by extensive testing and debugging. In the final sprint, the team will refine system behavior, improve reliability, and prepare the final demonstration and documentation.
 
 Work will be distributed across the team based on major subsystems of the project. One team member will focus on motor control and vehicle movement firmware, another will develop the proximity sensing and tag detection algorithms, a third member will handle hardware integration including wiring, power regulation, and sensor mounting, and the fourth member will focus on system integration, testing, and debugging. All team members will collaborate during integration and testing phases to ensure that the two vehicles interact correctly and the overall gameplay functions reliably.
