@@ -13,6 +13,12 @@ remote diagram:
 ![alt text](remote.png)
 car diagram: 
 ![alt text](car.png)
+
+The MCU uses a 5V LDO to regulate power to the critical components. For instance, we have 6 volts from the 4 AA batteries, but we have to down regulate those for the Atmega and NRF to 5 and 3.3 respectively. We have the level shifter to make sure that these differences in voltages are reconciled when communication happens between these devices. An exception is the motor which can be driven by the source.  
+
+Communication between transmitter and reciever is SPI. Serial communcation between other components can be seen clearly when referencing the diagram. 
+
+
 ## 4) Design Sketches:
 ![alt text](inside.jpeg)
 ![alt text](side.jpeg)
