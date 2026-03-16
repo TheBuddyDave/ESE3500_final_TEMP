@@ -52,6 +52,31 @@ With regards to critical design features, the primary ones are the holes for the
 
 ## 7) Bill of Materials (BOM): 
 
+[click for spreadsheet](https://docs.google.com/spreadsheets/d/1tswUpjjSOV8vyMNagtu2i6aR_z83_FL3piSMzd2DsaQ/edit?gid=253149064#gid=253149064)
+
+BOM:
+
+
+Remote:
+- ATmega328PB
+- NRF24L01 transceiver module
+- Thumbstick potentiometer (x2)
+- Start/reset button
+- 7-segment or small numeric display (timer readout)
+- AA battery pack + holder
+
+Car:
+- ATmega328PB
+- NRF24L01 transceiver module
+- Mecanum wheel chassis
+- DC gear motors (x4)
+- H-bridge motor driver (x4, or dual H-bridge x2)
+- MPU-6050 accelerometer
+- SPST toggle switch (practice mode)
+- LEDs (x2)
+- AA battery pack + holder
+
+
 ## 8) Final Demo: 
 
 On demo day, the project will be demonstrated using two small RC cars operating on the floor in an open indoor space such as a classroom or lab area. One car will act as the chaser and the other as the runner. Each vehicle will be controlled by a player using its control interface. During the demonstration, the runner will attempt to avoid the chaser while moving around the designated area, while the chaser will attempt to approach the runner and trigger a tag event by entering a predefined proximity range. When the tag condition is met, the runner vehicle will automatically enter a disabled state where its motors stop and a visual or audible indicator (such as an LED or buzzer) signals the tag event. The demonstration will require approximately 2–3 meters of open floor space and will last about one to two minutes, allowing time to show vehicle movement, proximity detection, and the tag response. The cars will be powered by onboard batteries and will include a reset mechanism so the demonstration can be quickly repeated if needed. This setup highlights the integration of sensing, motor control, and embedded game logic within the system.
