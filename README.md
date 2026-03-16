@@ -2,8 +2,6 @@
 # NOTE TO GRADERS: We had an initial issue with repo creation, so the professor told us to do this on our own rep
 ## members: David Aquino, Alexander Freeman, Anil Ghosh, Lucas Krippendorff
 
-# NOTE TO GRADERS:
-
 ## 1) Abstract: 
 Our project is a game in which an RC car navigates an obstacle course. The car will communicate wirelessly with the controller and have the hardware to detect collisions with surrounding objects. The game will end if a certain number of collisions are detected by the car. An onboard timer determines whether you complete the obstacle course in time.
 
@@ -34,7 +32,7 @@ With regards to critical design features, the primary ones are the holes for the
 
 5) User Feedback on Vehicle Status: The system shall provide visible or audible feedback to indicate at least the following states: normal operation, crash detected, and reset/ready state. Validation: Test each operating condition individually and verify that the correct LED, buzzer, or display output is produced.
 
-6) Post-Crash Reset Behavior: After a crash event, the system shall remain in the crash-response state until a valid reset command is received, after which the vehicle shall return to normal operation within 500 ms. Validation: Simulate crash events, issue reset commands, and verify through logs and observation that the system resumes normal behavior within the required time.
+6) Post-Crash Reset Behavior: After a crash event, the system shall remain in the crash-response state until a valid reset command iss received, after which the vehicle shall return to normal operation within 500 ms. Validation: Simulate crash events, issue reset commands, and verify through logs and observation that the system resumes normal behavior within the required time.
 
 ## 6) Hardware Requirements Specification (HRS):
 
