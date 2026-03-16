@@ -13,6 +13,14 @@ Our design is a game system intended to function as entertainment. The standout 
 ## 3) System Block Diagram:
 
 ## 4) Design Sketches:
+![alt text](inside.jpeg)
+![alt text](side.jpeg)
+![alt text](top.jpeg)
+![alt text](inspo.png)
+
+Depending on the material used, we may need a laser cutter or 3d printing, although basic prototyping can be done with cardboard. 
+
+With regards to critical design features, the primary ones are the holes for the wheels and the pillars to give space for the motors and circuitry. 
 
 ## 5) Software Requirements Specification (SRS): 
 
