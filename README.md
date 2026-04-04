@@ -97,3 +97,42 @@ In the first sprint, the team will focus on establishing the basic hardware plat
 Work will be distributed across the team based on major subsystems of the project. One team member will focus on motor control and vehicle movement firmware, another will develop the proximity sensing and tag detection algorithms, a third member will handle hardware integration including wiring, power regulation, and sensor mounting, and the fourth member will focus on system integration, testing, and debugging. All team members will collaborate during integration and testing phases to ensure that the two vehicles interact correctly and the overall gameplay functions reliably.
 
 
+
+# Sprint 1:
+
+## Progress
+TODO: Input photo of Schematic 
+TODO: Input Order Sheet 
+TODO: Photo of Controller with STM 
+
+## Status
+
+
+## Plans 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
